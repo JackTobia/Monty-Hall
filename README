@@ -1,0 +1,39 @@
+/**********************************************************
+* Probability Project: Monty Hall Game & Simulator
+* README
+* Jack Tobia
+* December 20, 2023
+*********************************************************/
+
+Compile/run:
+    1. If you haven't already, download Python3 on your system
+    2. Go to your Terminal and enter the directory containing MontyHall.py
+    3. Run this command in your terminal (w/o quotes): "python3 MontyHall.py"
+
+Program Purpose:
+    This program is a simulation of the Monty Hall Problem, with the ability to
+    play the game manually or simulate a bunch of games. It aligns with how the
+    original game was played in Let’s Make a Deal for decades, and thus there
+    are certain strategies that work better than others. There are options to
+    either play the game yourself or simulate a set of games. In both modes,
+    you are able to modify the game so that there are a different number of
+    doors. In the play mode, you get to actually participate in the game,
+    trying to guess which door has the car behind it. In the simulation mode,
+    you can input the number of simulated games you want to run, and it will
+    return statistics for four different strategies, showing which ones worked
+    best in that given number of simulations. The strategies I chose to use in
+    the simulation mode were:
+        1. Stay-stay-...-stay strategy: Banks on you correctly guessing the
+           door with the car behind it on the first try. This strategy is just
+           awful.
+        2. Switch-switch-...-switch strategy: Banks on the luck of your
+           indecisiveness.
+        3. Stay-stay-...-stay-switch strategy: This is the optimal strategy
+           given the rules of the game.
+        4. Random Staying/Switching: I just wanted to see how it would do.
+	Have fun with the game and simulation! Be sure to try larger numbers with
+	the simulation and smaller door numbers with the game (the play mode in the
+	game gets a bit repetitive if there are >5 doors).
+
+Acknowledgements:
+    Big thank you to Professor David Smyth for the inspiration!
